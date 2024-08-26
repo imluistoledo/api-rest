@@ -13,3 +13,10 @@
 
 `git config --global user.email "username@email.com"` - Para configurar el correo del usuario.
 
+`git add archivo.ext` - Para agregar archivos individuales al area de preparacion y asi tengan diferentes mensajes en el commit.
+
+`git reset archivo.ext` - Para eliminar archivos individuales del area de preparacion.
+
+`git diff` - Muestra los cambios realizados pero que aun no se encuentran en el area de preparacion.
+
+`git diff --staged` - Muestra los cambios en el area de preparacion que aun no tienen un commit.
