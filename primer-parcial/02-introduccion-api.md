@@ -31,12 +31,13 @@ Para que una API sea considerada Restful, debe cumplir con ciertas restricciones
 
 
 ### Ventajas y desventajas de Rest.
-------------------------------------------------
-| Ventajas           | Desventajas             |
-------------------------------------------------
-| Sencillez y facilidad de uso. Compatibilidad con HTTP, lo que permite usar infraestructura existente. | Puede ser ineficiente para operaciones complejas, ya que cada solicitud se maneja de manera independiente. |
-| Flexibilidad en el manejo de diferentes formatos de datos (JSON, XML, etc.). | No es adecuado para aplicaciones que requieren una comunicación en tiempo real bidireccional. |
-------------------------------------------------
+#### Ventajas
+- Sencillez y facilidad de uso. Compatibilidad con HTTP, lo que permite usar infraestructura existente.
+- Flexibilidad en el manejo de diferentes formatos de datos (JSON, XML, etc.).
+
+#### Desventajas
+- Puede ser ineficiente para operaciones complejas, ya que cada solicitud se maneja de manera independiente.
+- No es adecuado para aplicaciones que requieren una comunicación en tiempo real bidireccional.
 
 ### Alternativas o mejoras a Rest.
 - **GraphQL**: Permite a los clientes solicitar solo los datos específicos que necesitan, evitando la sobrecarga de datos.
