@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Peliculas</title>
+</head>
+<body>
+	<header class="encabezado">
+		<div class="logo">
+			<h3 class="nombre">
+				Filmopolis &reg;
+			</h3>
+		</div>
+		<!-- nav.nav>ul.lista>(a[href="#"]>li.elemento)*5 -->
+		<nav class="nav">
+			<ul class="lista">
+				<a href="http-request.html">
+					<li class="elemento">XMLHttpRequest</li>
+				</a>
+				<a href="#" class="active">
+					<li class="elemento">Fetch</li>
+				</a>
+				<a href="async-await.html">
+					<li class="elemento">Async/await</li>
+				</a>
+				<a href="jquery.html">
+					<li class="elemento">JQuery</li>
+				</a>
+				<a href="axios.html">
+					<li class="elemento">Axios</li>
+				</a>
+			</ul>
+		</nav>
+	</header>
+
+    <div class="titulo">
+        <h1 class="title">Lo más nuevo</h1>
+    </div>
+	<div class="contenedor" id="contenedor">
+    </div>
+
+	<div class="paginacion">
+		<button id="btnAnterior">Anterior</button>
+		<button id="btnSiguiente">Siguiente</button>
+	</div>
+
+	<script src="fetch.js"></script>
+</body>
+</html>
