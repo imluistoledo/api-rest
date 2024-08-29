@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo con Express</title>
+</head>
+<body>
+    <h1>Hola mundo creado en Express</h1>
+    <p id="mensaje">Aqui se mostrara el mensaje.</p>
+    <button id="btnMensaje">Mostrar mensaje</button>
+
+    <script>
+        const btnMensaje = document.getElementById('btnMensaje')
+        btnMensaje.addEventListener('click', () => {
+            fetch('http://localhost:3000')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('mensaje').textContent = data;
+                console.log(data)
+            })
+            .catch(error => console.error('Error:', error));
+        })
+    </script>
+</body>
+</html>
