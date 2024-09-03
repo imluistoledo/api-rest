@@ -1,6 +1,8 @@
 Luis Gerardo Morales Toledo. ISC 21100254.
 A 29 de agosto de 2024.
 ---
+## IMPORTANTES EXAMEN
+
 
 # Cross Origin Resource Sharing (CORS)
 
