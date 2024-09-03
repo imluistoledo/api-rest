@@ -10,6 +10,15 @@
     <p id="mensaje">Aqui se mostrara el mensaje.</p>
     <button id="btnMensaje">Mostrar mensaje</button>
 
+    <!-- Formulario para demostrar que estos se saltan el CORS y SOP -->
+    <form action="http://localhost:3000" class="frm-peticion" method="get" target="ifr-respuesta">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <iframe name="ifr-respuesta"></iframe>
+
+    <!-- Peticion afectada por CORS con javascript -->
+    <!-- Solo peticiones asincronas son bloqueadas -->
     <script>
         const btnMensaje = document.getElementById('btnMensaje')
         btnMensaje.addEventListener('click', () => {
