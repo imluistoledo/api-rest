@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostración Express</title>
+</head>
+<body>
+    <h1>Demostración de Métodos y Propiedades de req y res en Express</h1>
+
+    <!-- Ejemplo 1: Parámetros de consulta -->
+    <h2>Ejemplo 1: Parámetros de consulta (req.query)</h2>
+    <button onclick="searchTerm()">Buscar 'Express'</button>
+    <p id="result1"></p>
+
+    <!-- Ejemplo 2: Parámetros de ruta -->
+    <h2>Ejemplo 2: Parámetros de ruta (req.params)</h2>
+    <button onclick="getUserInfo()">Obtener info del usuario con ID 123</button>
+    <p id="result2"></p>
+
+    <!-- Ejemplo 3: Respuesta JSON -->
+    <h2>Ejemplo 3: Respuesta JSON (res.json)</h2>
+    <button onclick="getUserJson()">Obtener JSON del usuario con ID 1</button>
+    <p id="result3"></p>
+
+    <!-- Ejemplo 4: Código de estado y respuesta -->
+    <h2>Ejemplo 4: Código de estado y respuesta (res.status)</h2>
+    <button onclick="notFound()">Simular página no encontrada</button>
+    <p id="result4"></p>
+
+    <!-- Ejemplo 5: Redirección -->
+    <h2>Ejemplo 5: Redirección (res.redirect)</h2>
+    <button onclick="redirectOldRoute()">Redirigir desde /old-route</button>
+    <p id="result5"></p>
+
+    <!-- Ejemplo 6: Leer y establecer encabezados -->
+    <h2>Ejemplo 6: Leer y establecer encabezados (req.get, res.set)</h2>
+    <button onclick="getHeaders()">Mostrar User-Agent</button>
+    <p id="result6"></p>
+
+    <!-- Ejemplo 7: Manejar datos de un formulario -->
+    <h2>Ejemplo 7: Manejar datos de un formulario (req.body)</h2>
+    <form id="submitForm" method="post" action="http://localhost:3000/submit" enctype="application/x-www-form-urlencoded">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Enviar Formulario</button>
+    </form>
+    <p id="result7"></p>
+
+    <script>
+        // Función para el ejemplo 1
+        function searchTerm() {
+            fetch('http://localhost:3000/search?term=express')
+                .then(response => response.text())
+                .then(data => document.getElementById('result1').textContent = data);
+        }
+
+        // Función para el ejemplo 2
+        function getUserInfo() {
+            fetch('http://localhost:3000/user/123')
+                .then(response => response.text())
+                .then(data => document.getElementById('result2').textContent = data);
+        }
+
+        // Función para el ejemplo 3
+        function getUserJson() {
+            fetch('http://localhost:3000/api/user/1')
+                .then(response => response.json())
+                .then(data => document.getElementById('result3').textContent = JSON.stringify(data));
+        }
+
+        // Función para el ejemplo 4
+        function notFound() {
+            fetch('http://localhost:3000/not-found')
+                .then(response => response.text())
+                .then(data => document.getElementById('result4').textContent = data);
+        }
+
+        // Función para el ejemplo 5
+        function redirectOldRoute() {
+            fetch('http://localhost:3000/old-route')
+                .then(response => response.text())
+                .then(data => document.getElementById('result5').textContent = data);
+        }
+
+        // Función para el ejemplo 6
+        function getHeaders() {
+            fetch('http://localhost:3000/headers')
+                .then(response => response.text())
+                .then(data => document.getElementById('result6').textContent = data);
+        }
+
+        // // Función para el ejemplo 7
+        // document.getElementById('submitForm').addEventListener('submit', function(event) {
+        //     event.preventDefault();
+        //     const formData = new FormData(this);
+        //     fetch('http://localhost:3000/submit', {
+        //         method: 'POST',
+        //         body: formData
+        //     })
+        //     .then(response => response.text())
+        //     .then(data => document.getElementById('result7').textContent = data);
+        // });
+    </script>
+</body>
+</html>
