@@ -32,6 +32,7 @@ let query = `
   limit 20;
 `
 
+
 // Ruta para realizar la consulta
 app.get('/film', (req, res) => {
   const filmID = req.query.id
@@ -60,6 +61,33 @@ app.get('/film', (req, res) => {
   }
 
   connection.query(query, (err, results) => {
+    if (err) {
+      res.status(500).send('Error al ejecutar la consulta')
+      return
+    }
+    // Validar existencia
+    if (results.length === 0) {
+      res.json({
+        'Excepcion: ': 'No se ha encontrado ninguna pelicula'
+      })
+      return
+    }
+    res.json(results)
+  })
+})
+
+// Ruta para crear registros
+app.post('/record', (req, res) => {
+  const filmName = req.query.name
+  const filmReleaseYear = req.query.release
+  const filmLength = req.query.length
+
+  // Consulta insert
+  let insert = `
+  insert into film (title, release_year, length) 
+  values (${filmName}, ${filmReleaseYear}, ${filmLength})`
+
+  connection.query(insert, (err, results) => {
     if (err) {
       res.status(500).send('Error al ejecutar la consulta')
       return
