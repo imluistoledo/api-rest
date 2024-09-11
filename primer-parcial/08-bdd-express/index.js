@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: 'Pas$w0rd',
-  database: 'sakila',
+  database: 'letterboxd',
 })
 
 // Conexion a la BDD
@@ -78,14 +78,25 @@ app.get('/film', (req, res) => {
 
 // Ruta para crear registros
 app.post('/record', (req, res) => {
-  const filmName = req.query.name
-  const filmReleaseYear = req.query.release
-  const filmLength = req.query.length
+  const title = req.query.title
+  const about = req.query.about
+  const length = req.query.length
+  const release = req.query.release
+  const rating = req.query.rating
+  const director = req.query.director
 
   // Consulta insert
   let insert = `
-  insert into film (title, release_year, length) 
-  values (${filmName}, ${filmReleaseYear}, ${filmLength})`
+    insert into film values (
+      null, 
+      '${title}', 
+      '${about}',
+      ${length},
+      ${release},
+      ${rating},
+      '${director}'
+    );
+  `
 
   connection.query(insert, (err, results) => {
     if (err) {
@@ -99,7 +110,45 @@ app.post('/record', (req, res) => {
       })
       return
     }
-    res.json(results)
+    res.json({
+      'status': '200',
+      'message': 'Pelicula registrada correctamente',
+      'pelicula': {
+        'title': title,
+        'release': release,
+        'director': director,
+        'rating': rating
+      }
+    })
+  })
+})
+
+app.delete('/undo', (req, res) => {
+  const title = req.query.title
+  const release = req.query.release
+
+  let remove = `delete from film where title = '${title}' and release_year = ${release}`
+
+  connection.query(remove, (err, results) => {
+    if (err) {
+      res.status(500).send('Error al ejecutar la consulta')
+      return
+    }
+    // Validar existencia
+    if (results.length === 0) {
+      res.json({
+        'Excepcion: ': 'No se ha encontrado ninguna pelicula'
+      })
+      return
+    }
+    res.json({
+      'status': '200',
+      'message': 'Pelicula eliminada correctamente',
+      'pelicula': {
+        'title': title,
+        'release': release
+      }
+    })
   })
 })
 
