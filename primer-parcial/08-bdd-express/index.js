@@ -28,7 +28,7 @@ let query = `
       title,
       release_year,
       length
-  from sakila.film
+  from film
   limit 20;
 `
 
@@ -43,7 +43,7 @@ app.get('/film', (req, res) => {
         title,
         release_year,
         length
-      from sakila.film
+      from letterboxd.film
       where film_id = '${filmID}'
       limit 20;
     `
@@ -55,7 +55,7 @@ app.get('/film', (req, res) => {
       title,
       release_year,
       length
-    from sakila.film
+    from film
     limit 20;
   `
   }
