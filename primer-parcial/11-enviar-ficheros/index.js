@@ -18,9 +18,9 @@ app.get('/download', (req, res) => {
 })
 
 app.get('/attachment', (req, res) => {
-    let archivo = path.join(__dirname, '/img/The-Umbrellas-of-Cherbourg.jpg')
+    let archivo = path.join(__dirname, '/img/mirror.jpeg')
     res.attachment(archivo)
-    res.send()
+    res.sendFile(archivo)
     // Es importante enviar con send despues de hacer el attachment
 })
 
