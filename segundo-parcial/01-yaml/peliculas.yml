@@ -1,0 +1,43 @@
+peliculas:
+  - titulo: "Inception"
+    director: "Christopher Nolan"
+    año: 2010
+    genero: 
+      - Ciencia ficción
+      - Acción
+    duracion: 148 minutos
+    calificacion: 8.8
+    elenco:
+      - nombre: "Leonardo DiCaprio"
+        personaje: "Dom Cobb"
+      - nombre: "Joseph Gordon-Levitt"
+        personaje: "Arthur"
+      - nombre: "Elliot Page"
+        personaje: "Ariadne"
+
+  - titulo: "The Shawshank Redemption"
+    director: "Frank Darabont"
+    año: 1994
+    genero: 
+      - Drama
+    duracion: 142 minutos
+    calificacion: 9.3
+    elenco:
+      - nombre: "Tim Robbins"
+        personaje: "Andy Dufresne"
+      - nombre: "Morgan Freeman"
+        personaje: "Ellis 'Red' Redding"
+
+  - titulo: "The Godfather"
+    director: "Francis Ford Coppola"
+    año: 1972
+    genero: 
+      - Drama
+      - Crimen
+    duracion: 175 minutos
+    calificacion: 9.2
+    elenco:
+      - nombre: "Marlon Brando"
+        personaje: "Don Vito Corleone"
+      - nombre: "Al Pacino"
+        personaje: "Michael Corleone"
