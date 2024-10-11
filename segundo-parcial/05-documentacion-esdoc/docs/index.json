@@ -4,9 +4,9 @@
     "kind": "external",
     "name": "Infinity",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Infinity",
+    "longname": "src/.external-ecmascript.js~Infinity",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -16,9 +16,9 @@
     "kind": "external",
     "name": "NaN",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~NaN",
+    "longname": "src/.external-ecmascript.js~NaN",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -28,9 +28,9 @@
     "kind": "external",
     "name": "undefined",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~undefined",
+    "longname": "src/.external-ecmascript.js~undefined",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -40,9 +40,9 @@
     "kind": "external",
     "name": "null",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~null",
+    "longname": "src/.external-ecmascript.js~null",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -52,9 +52,9 @@
     "kind": "external",
     "name": "Object",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Object",
+    "longname": "src/.external-ecmascript.js~Object",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -64,9 +64,9 @@
     "kind": "external",
     "name": "object",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~object",
+    "longname": "src/.external-ecmascript.js~object",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -76,9 +76,9 @@
     "kind": "external",
     "name": "Function",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Function",
+    "longname": "src/.external-ecmascript.js~Function",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -88,9 +88,9 @@
     "kind": "external",
     "name": "function",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~function",
+    "longname": "src/.external-ecmascript.js~function",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -100,9 +100,9 @@
     "kind": "external",
     "name": "Boolean",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Boolean",
+    "longname": "src/.external-ecmascript.js~Boolean",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -112,9 +112,9 @@
     "kind": "external",
     "name": "boolean",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~boolean",
+    "longname": "src/.external-ecmascript.js~boolean",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -124,9 +124,9 @@
     "kind": "external",
     "name": "Symbol",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Symbol",
+    "longname": "src/.external-ecmascript.js~Symbol",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -136,9 +136,9 @@
     "kind": "external",
     "name": "Error",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Error",
+    "longname": "src/.external-ecmascript.js~Error",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -148,9 +148,9 @@
     "kind": "external",
     "name": "EvalError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~EvalError",
+    "longname": "src/.external-ecmascript.js~EvalError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -160,9 +160,9 @@
     "kind": "external",
     "name": "InternalError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~InternalError",
+    "longname": "src/.external-ecmascript.js~InternalError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -172,9 +172,9 @@
     "kind": "external",
     "name": "RangeError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~RangeError",
+    "longname": "src/.external-ecmascript.js~RangeError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -184,9 +184,9 @@
     "kind": "external",
     "name": "ReferenceError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~ReferenceError",
+    "longname": "src/.external-ecmascript.js~ReferenceError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -196,9 +196,9 @@
     "kind": "external",
     "name": "SyntaxError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~SyntaxError",
+    "longname": "src/.external-ecmascript.js~SyntaxError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -208,9 +208,9 @@
     "kind": "external",
     "name": "TypeError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~TypeError",
+    "longname": "src/.external-ecmascript.js~TypeError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -220,9 +220,9 @@
     "kind": "external",
     "name": "URIError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~URIError",
+    "longname": "src/.external-ecmascript.js~URIError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -232,9 +232,9 @@
     "kind": "external",
     "name": "Number",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Number",
+    "longname": "src/.external-ecmascript.js~Number",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -244,9 +244,9 @@
     "kind": "external",
     "name": "number",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~number",
+    "longname": "src/.external-ecmascript.js~number",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -256,9 +256,9 @@
     "kind": "external",
     "name": "Date",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Date",
+    "longname": "src/.external-ecmascript.js~Date",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -268,9 +268,9 @@
     "kind": "external",
     "name": "String",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~String",
+    "longname": "src/.external-ecmascript.js~String",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -280,9 +280,9 @@
     "kind": "external",
     "name": "string",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~string",
+    "longname": "src/.external-ecmascript.js~string",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -292,9 +292,9 @@
     "kind": "external",
     "name": "RegExp",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~RegExp",
+    "longname": "src/.external-ecmascript.js~RegExp",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -304,9 +304,9 @@
     "kind": "external",
     "name": "Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Array",
+    "longname": "src/.external-ecmascript.js~Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -316,9 +316,9 @@
     "kind": "external",
     "name": "Int8Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Int8Array",
+    "longname": "src/.external-ecmascript.js~Int8Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -328,9 +328,9 @@
     "kind": "external",
     "name": "Uint8Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Uint8Array",
+    "longname": "src/.external-ecmascript.js~Uint8Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -340,9 +340,9 @@
     "kind": "external",
     "name": "Uint8ClampedArray",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Uint8ClampedArray",
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -352,9 +352,9 @@
     "kind": "external",
     "name": "Int16Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Int16Array",
+    "longname": "src/.external-ecmascript.js~Int16Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -364,9 +364,9 @@
     "kind": "external",
     "name": "Uint16Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Uint16Array",
+    "longname": "src/.external-ecmascript.js~Uint16Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -376,9 +376,9 @@
     "kind": "external",
     "name": "Int32Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Int32Array",
+    "longname": "src/.external-ecmascript.js~Int32Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -388,9 +388,9 @@
     "kind": "external",
     "name": "Uint32Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Uint32Array",
+    "longname": "src/.external-ecmascript.js~Uint32Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -400,9 +400,9 @@
     "kind": "external",
     "name": "Float32Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Float32Array",
+    "longname": "src/.external-ecmascript.js~Float32Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -412,9 +412,9 @@
     "kind": "external",
     "name": "Float64Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Float64Array",
+    "longname": "src/.external-ecmascript.js~Float64Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -424,9 +424,9 @@
     "kind": "external",
     "name": "Map",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Map",
+    "longname": "src/.external-ecmascript.js~Map",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -436,9 +436,9 @@
     "kind": "external",
     "name": "Set",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Set",
+    "longname": "src/.external-ecmascript.js~Set",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -448,9 +448,9 @@
     "kind": "external",
     "name": "WeakMap",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~WeakMap",
+    "longname": "src/.external-ecmascript.js~WeakMap",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -460,9 +460,9 @@
     "kind": "external",
     "name": "WeakSet",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~WeakSet",
+    "longname": "src/.external-ecmascript.js~WeakSet",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -472,9 +472,9 @@
     "kind": "external",
     "name": "ArrayBuffer",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~ArrayBuffer",
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -484,9 +484,9 @@
     "kind": "external",
     "name": "DataView",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~DataView",
+    "longname": "src/.external-ecmascript.js~DataView",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -496,9 +496,9 @@
     "kind": "external",
     "name": "JSON",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~JSON",
+    "longname": "src/.external-ecmascript.js~JSON",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -508,9 +508,9 @@
     "kind": "external",
     "name": "Promise",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Promise",
+    "longname": "src/.external-ecmascript.js~Promise",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -520,9 +520,9 @@
     "kind": "external",
     "name": "Generator",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Generator",
+    "longname": "src/.external-ecmascript.js~Generator",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -532,9 +532,9 @@
     "kind": "external",
     "name": "GeneratorFunction",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~GeneratorFunction",
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -544,9 +544,9 @@
     "kind": "external",
     "name": "Reflect",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Reflect",
+    "longname": "src/.external-ecmascript.js~Reflect",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -556,16 +556,227 @@
     "kind": "external",
     "name": "Proxy",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
-    "memberof": "05-documentacion-esdoc/.external-ecmascript.js",
+    "memberof": "src/.external-ecmascript.js",
     "static": true,
-    "longname": "05-documentacion-esdoc/.external-ecmascript.js~Proxy",
+    "longname": "src/.external-ecmascript.js~Proxy",
     "access": "public",
     "description": "",
     "builtinExternal": true
   },
   {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/funciones.js",
+    "content": "/**\r\n * Calcula el cuadrado de un número.\r\n * @param {number} number - El número a ser elevado al cuadrado.\r\n * @returns {number} El cuadrado del número dado.\r\n */\r\nexport function square (number) {\r\n    return number === 0 ? 1 : number * number\r\n}\r\n\r\n/**\r\n * Calcula el cubo de un número.\r\n * @param {number} number - El número a ser elevado al cubo.\r\n * @returns {number} El cubo del número dado.\r\n */\r\nexport function cube (number) {\r\n    return number === 0 ? 0 : number ** 3\r\n}\r\n\r\n/**\r\n * Calcula el area de un circulo.\r\n * @param {number} radius - El radio del circulo.\r\n * @returns {number} El area de un circulo con el radio pasado.\r\n */\r\nexport function circle (radius) {\r\n    return Math.PI * (radius**2)\r\n}",
+    "static": true,
+    "longname": "C:/Users/luistoledo/Documents/api-rest/segundo-parcial/05-documentacion-esdoc/src/funciones.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "square",
+    "memberof": "src/funciones.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/funciones.js~square",
+    "access": "public",
+    "export": true,
+    "importPath": "05-documentacion-esdoc/src/funciones.js",
+    "importStyle": "{square}",
+    "description": "Calcula el cuadrado de un número.",
+    "lineNumber": 6,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} El cuadrado del número dado."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "number",
+        "description": "El número a ser elevado al cuadrado."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "El cuadrado del número dado."
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "cube",
+    "memberof": "src/funciones.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/funciones.js~cube",
+    "access": "public",
+    "export": true,
+    "importPath": "05-documentacion-esdoc/src/funciones.js",
+    "importStyle": "{cube}",
+    "description": "Calcula el cubo de un número.",
+    "lineNumber": 15,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} El cubo del número dado."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "number",
+        "description": "El número a ser elevado al cubo."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "El cubo del número dado."
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "circle",
+    "memberof": "src/funciones.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/funciones.js~circle",
+    "access": "public",
+    "export": true,
+    "importPath": "05-documentacion-esdoc/src/funciones.js",
+    "importStyle": "{circle}",
+    "description": "Calcula el area de un circulo.",
+    "lineNumber": 24,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} El area de un circulo con el radio pasado."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "radius",
+        "description": "El radio del circulo."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "El area de un circulo con el radio pasado."
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "const express = require('express')\r\nconst app = express()\r\nconst port = 3000\r\n// const func = require('./funciones')\r\nimport square from './funciones.js'\r\nimport cube from './funciones.js'\r\nimport circle from './funciones.js'\r\n\r\napp.get('/square/:number', (req, res) => {\r\n    const number = parseInt(req.params.number)\r\n    const result = square(number)\r\n    res.send(`El cuadrado de ${number} es ${result}`)\r\n})\r\n\r\napp.get('/square/:cube', (req, res) => {\r\n    const number = parseInt(req.params.number)\r\n    const result = cube(number)\r\n    res.send(`El cubo de ${number} es ${result}`)\r\n})\r\n\r\napp.get('/square/:circle', (req, res) => {\r\n    const number = parseInt(req.params.radius)\r\n    const result = circle(radius)\r\n    res.send(`El area del circulo con radio de ${number} es ${result}`)\r\n})\r\n\r\napp.listen(port, () => {\r\n    console.log(`Servidor escuchando en http://localhost:${port}`)\r\n})",
+    "static": true,
+    "longname": "C:/Users/luistoledo/Documents/api-rest/segundo-parcial/05-documentacion-esdoc/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "05-documentacion-esdoc/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "05-documentacion-esdoc/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "port",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~port",
+    "access": "public",
+    "export": false,
+    "importPath": "05-documentacion-esdoc/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
     "kind": "index",
-    "content": "",
+    "content": "# Documentacion con ESDoc\r\n# Luis Gerardo Morales Toledo. ISC 21100254.\r\n# A 10 de octubre de 2024.",
     "longname": "C:\\Users\\luistoledo\\Documents\\api-rest\\segundo-parcial\\05-documentacion-esdoc\\README.md",
     "name": "./README.md",
     "static": true,
@@ -573,7 +784,7 @@
   },
   {
     "kind": "packageJSON",
-    "content": "{\n  \"name\": \"05-documentacion-esdoc\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"description\": \"\",\n  \"dependencies\": {\n    \"express\": \"^4.21.1\"\n  },\n  \"devDependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  }\n}\n",
+    "content": "{\n  \"name\": \"05-documentacion-esdoc\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n    \"esdoc\": \"npx esdoc -c ./.esdoc.json\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"description\": \"\",\n  \"dependencies\": {\n    \"express\": \"^4.21.1\"\n  },\n  \"devDependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  }\n}\n",
     "longname": "C:\\Users\\luistoledo\\Documents\\api-rest\\segundo-parcial\\05-documentacion-esdoc\\package.json",
     "name": "package.json",
     "static": true,
