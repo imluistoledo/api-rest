@@ -22,7 +22,7 @@ export const cube = (number) => {
  * @returns {number} El area de un circulo con el radio pasado.
  */
 export const circle = (radius) => {
-    return Math.pi * (radius**2)
+    return Math.PI * (radius**2)
 }
 
 // module.exports = {
