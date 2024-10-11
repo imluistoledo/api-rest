@@ -3,7 +3,7 @@
  * @param {number} number - El número a ser elevado al cuadrado.
  * @returns {number} El cuadrado del número dado.
  */
-export const square = (number) => {
+export function square (number) {
     return number === 0 ? 1 : number * number
 }
 
@@ -12,7 +12,7 @@ export const square = (number) => {
  * @param {number} number - El número a ser elevado al cubo.
  * @returns {number} El cubo del número dado.
  */
-export const cube = (number) => {
+export function cube (number) {
     return number === 0 ? 0 : number ** 3
 }
 
@@ -21,12 +21,6 @@ export const cube = (number) => {
  * @param {number} radius - El radio del circulo.
  * @returns {number} El area de un circulo con el radio pasado.
  */
-export const circle = (radius) => {
+export function circle (radius) {
     return Math.PI * (radius**2)
 }
-
-// module.exports = {
-//     square,
-//     cube,
-//     circle
-// }
