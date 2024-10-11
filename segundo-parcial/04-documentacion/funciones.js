@@ -19,7 +19,7 @@ const cube = (number) => {
 /**
  * Calcula el area de un circulo.
  * @param {number} radius - El radio del circulo.
- * @returns {number} El area de un circulo con el radio dado.
+ * @returns {number} El area de un circulo con el radio pasado.
  */
 const circle = (radius) => {
     return Math.pi * (radius**2)
