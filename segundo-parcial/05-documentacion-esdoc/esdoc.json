@@ -1,0 +1,13 @@
+{
+    "source": "./",
+    "destination": "./docs", 
+    "includes": [
+        "\\.js$",
+        "funciones.js"
+    ], 
+    "plugins": [
+        {
+            "name": "esdoc-standard-plugin"
+        }
+    ]
+}
