@@ -7,18 +7,20 @@ app.use(express.json()) // Para manejar datos en formato JSON
 
 // Ruta de registro
 app.post('/registrar',
-    registerValidationRules(), // Reglas de validación
+    registerValidationRules(), // Reglas de validación y sanitización
     validate, // Middleware de validación
     (req, res) => {
+        // Aquí puedes acceder a los datos ya validados y sanitizados
+        const { username, email, password } = req.body
+
         // Lógica si no hay errores
-        res.send('Usuario registrado con éxito')
+        res.send(`Usuario registrado con éxito: ${username}, ${email}`)
     }
 )
 
 // Función manejadora de errores
 app.use((err, req, res, next) => {
-    // Si el error tiene un estado (por ejemplo, errores de validación)
-    const statusCode = err.status || 500 // 500 es un error de servidor por defecto
+    const statusCode = err.status || 500
     res.status(statusCode).json({
         message: err.message || 'Error interno del servidor',
         errors: err.errors || []
