@@ -1,0 +1,17 @@
+/* public/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+}
+
+h1 {
+    color: #db5e10;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.25em;
+}
+
