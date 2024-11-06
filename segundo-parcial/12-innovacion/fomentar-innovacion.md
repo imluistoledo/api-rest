@@ -42,7 +42,7 @@ Como líder de un equipo de desarrollo de software, fomentar la innovación y cr
 
 - **Espacios de trabajo inspiradores**: Crear un entorno de trabajo que favorezca la creatividad, ya sea un espacio físico agradable o uno virtual bien organizado, con espacios para reuniones informales, descanso y trabajo colaborativo.
 
-Lista de acciones:
+## Lista de acciones:
 
 1. Crear un ambiente seguro para expresar ideas.
 1. Promover la retroalimentación constructiva.
