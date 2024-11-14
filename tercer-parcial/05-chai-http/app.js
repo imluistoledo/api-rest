@@ -1,8 +1,8 @@
-const express = require('express');
-const app = express();
+const express = require('express')
+const app = express()
 
 app.get('/users', (req, res) => {
-    res.json([{ id: 1, name: 'John Doe' }, { id: 2, name: 'Jane Doe' }]);
-});
+    res.json([{ id: 1, name: 'John Doe' }, { id: 2, name: 'Jane Doe' }])
+})
 
-module.exports = app;
+module.exports = app
