@@ -6,23 +6,13 @@ const userRoutes = require('./routes/user')
 const app = express()
 app.use(express.json())
 
-// Configuración de swagger-jsdoc
+// Importar la configuración desde el archivo JSON
+const swaggerConfig = require('./config/swagger.json')
+
+// Configuración de swagger-jsdoc usando la configuración importada
 const swaggerOptions = {
-    definition: {
-        openapi: '3.0.0',
-        info: {
-            title: 'API de ejemplo con Swagger',
-            version: '1.0.0',
-            description: 'Ejemplo básico de API documentada con Swagger',
-        },
-        servers: [
-            {
-                url: 'http://localhost:3000',
-                description: 'Servidor local',
-            },
-        ],
-    },
-    apis: [__dirname + '/routes/*.js'], // Ubicación de las anotaciones Swagger
+    definition: swaggerConfig, // Pasar la configuración directamente
+    apis: [__dirname + '/routes/*.js'] // Ubicación de las anotaciones Swagger
 }
 
 // Generación de especificaciones OpenAPI
@@ -31,6 +21,12 @@ const swaggerDocs = swaggerJsdoc(swaggerOptions)
 // Rutas
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs)) // Documentación Swagger
 app.use('/users', userRoutes) // Rutas de usuarios
+
+// Nueva ruta para devolver las especificaciones en JSON
+app.get('/spec', (req, res) => {
+    res.setHeader('Content-Type', 'application/json')
+    res.send(swaggerDocs)
+})
 
 // Inicio del servidor
 const PORT = 3000
