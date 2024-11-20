@@ -3,6 +3,16 @@ const swaggerJsdoc = require('swagger-jsdoc')
 const swaggerUi = require('swagger-ui-express')
 const userRoutes = require('./routes/user')
 
+const { SwaggerTheme, SwaggerThemeNameEnum } = require('swagger-themes')
+
+const theme = new SwaggerTheme()
+const darkStyle = theme.getBuffer(SwaggerThemeNameEnum.DARK) // Getting a Style
+
+const options = {
+    explorer: true,
+    customCss: theme.getBuffer(SwaggerThemeNameEnum.DARK)
+}
+
 const app = express()
 app.use(express.json())
 
@@ -19,7 +29,7 @@ const swaggerOptions = {
 const swaggerDocs = swaggerJsdoc(swaggerOptions)
 
 // Rutas
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs)) // Documentación Swagger
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs, options)) // Documentación Swagger
 app.use('/users', userRoutes) // Rutas de usuarios
 
 // Nueva ruta para devolver las especificaciones en JSON
